@@ -3,7 +3,7 @@
 Operational handoff only. `LEADS.md` and `OUTREACH_LOG.md` remain the source of truth.
 
 - Current phase: Build complete, QA passed, committed locally.
-- Last trusted commit: see `git log -1` in this repo (first commit, made at end of this session).
+- Last trusted commit: b551f09 (first commit, "Build Carl Church demo site: Home, Work, Contact", made at end of this session).
 - Known untrusted state: none — BUILD_BRIEF facts/assets re-verified live via curl 2026-07-13 (this session, again), images visually checked for watermarks, all 18 native image sizes re-verified against disk. QA_REPORT.md written with full contrast+upscale audit evidence (Playwright/Chromium, 3 pages × 3 breakpoints); one real contrast bug found and fixed (header button text near-invisible due to a CSS specificity collision) and reverified clean.
 - Next exact action: REVIEW phase — independent QA pass, then FIX+DEPLOY+DRAFT (new GitHub repo `carl-church-demo`, enable Pages, draft outreach email).
 - Deploy URL: not deployed yet (build phase only, per instructions).
